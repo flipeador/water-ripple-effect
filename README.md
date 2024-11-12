@@ -1,8 +1,16 @@
-# Win32 Bitmap Water Effect DLL
+# Win32 Water Effect
+
+High-performance simulation of water ripples on a window surface in Windows.
+
+The DLL paints an image directly on the background of a window using [Windows GDI][gdi].
 
 <p align="center">
 <img src="demo.webp"/>
 </p>
+
+#### Simulation of water ripples on a \<canvas> element in the browser:
+
+<https://gist.github.com/flipeador/517befaed8c35749d38b5cc63bbd715e>
 
 ## Examples
 
@@ -174,3 +182,6 @@ end;
 </details>
 
 </details>
+
+<!-- Reference Links -->
+[gdi]: https://learn.microsoft.com/en-us/windows/win32/gdi/windows-gdi
